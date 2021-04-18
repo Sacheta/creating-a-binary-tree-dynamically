@@ -30,7 +30,7 @@ public:
         return curr;}
 
 
-    void searchn(node* root,int n){ //function for searching and returning a node // having problems with it
+    void searchn(node* root,int n){ //function for searching a node with given key, n. It returns the node using spare pointer
         if(root==nullptr)
             return ;
         if(root->data==n)
